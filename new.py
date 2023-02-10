@@ -51,7 +51,7 @@ def freight_instance():
 
 name = 'freight.csv'
 
-df = pd.read_csv(name, error_bad_lines=False)
+df = pd.read_csv(name)
 
 def download1(data):
     res = [{'Freight Details':data}]
